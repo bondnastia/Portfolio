@@ -1,0 +1,356 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: inline-block;
+    width: 100%;
+}
+.glavni{
+padding-left: 240px;
+}
+header{
+    background-image: url(img/first-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+.headline{
+    font-size: 80px;
+    font-family: "open-sans bold";
+     text-align: center;
+      color: #fff;
+}
+.head{
+    top: calc(40vh - 40px);
+    position: absolute;
+    width: 60%;
+    text-align: center;
+}
+
+.container{
+width: 890px;
+margin: 0 auto;
+}
+nav{
+    float: none;
+   display:flex;
+   justify-content: center;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display:block;
+    margin-top:20px;
+    position: fixed;
+}
+.menu li{
+float:left;
+list-style-type:none;
+margin-right: 30px;
+margin-bottom: 10px;
+
+
+}
+.menu li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.banner-class{
+    color:#dedddc;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5;
+}
+.social{
+    float: none;  
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social li{
+    float:left;
+    list-style-type:none;
+}
+.social li a{
+    margin-right: 30px;
+}
+
+
+
+
+/* end header */
+.about{
+    background:#2b2b2b;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.image{
+    float:left;
+    border-radius: 50%; 
+    height: 150px;
+    width: 150px;
+}
+.text-about{
+    overflow: hidden;
+    color:#7a7a7a;
+   padding-left: 92px;
+       
+   } 
+.contact{
+    padding-top: 47px;
+   
+}
+.p-about{
+    line-height: 30px;
+}
+
+.buttun{
+    float:right; 
+}
+.prob{
+    float:right;
+    height: 200px;
+    width: 200px;
+}
+/* end about */
+/* ============================================================================================================================================== */
+.skills{
+    background:#fff;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+   
+}
+.skills li{
+    margin: 20px 0;
+}
+.skil h3{
+    color:#2b2b2b
+}
+.skills h1{
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.p-skills{
+    width: 620px;
+     float:right; 
+     color:#a5acb2;
+}
+.skills h1 span{
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    color:#313131
+}
+.skil{
+    float:right;
+    width: 600px;
+    margin: 20px;
+}
+.bar{
+    background:#353b48;
+    display: block;
+    height: 10px;
+    border: 3px solid #f1f1f1;
+    border-radius:3px;
+    overflow: hidden;
+    box-shadow:0 0 10px #2187e7b3;
+}
+.bar span{
+    padding-left: 4px;
+    height: 10px;
+    float:left;
+    background:#2187E7;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+    background:#2187E7;
+
+}
+.css{
+    width: 60%;
+    animation: css 2s;
+    background:#2187E7;
+}
+.bootstrap{
+width: 40%;
+animation: bootstrap 2s;
+background:#2187E7;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+/* end skills */
+/* ====================================================================================================================================
+ */
+ .portfolio{
+     background:#ebeeee;
+    
+     
+ }
+ .work{
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .block-title{
+     color:#95a3aa;
+     font: 18px/24px 'opensans-semibold', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     text-align: center;
+     /* margin-top: 48px;    */
+ }
+ .job-wrap{
+     margin-top: 36px;
+     position: relative;
+    
+ }
+ .job-wrap img{
+     width: 100%;
+    
+ }
+ .job-wrap:hover .overlay{
+    display: flex;
+}
+ .overlay{
+     display: none;
+      position:absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0,0,0,0.5);
+     padding: 10px;
+ }
+ .overlay:hover h5{
+     color:#fff;
+     padding-left: 2px;
+     }
+.overlay-text{
+    color: #c6c7c7;
+    position:absolute;
+    top: 0;
+    left: 0;
+padding-left: 10px;
+  padding-top: 40px;
+}
+/* end portfolio
+================================================================================================================================== */
+footer{
+   background-color:#0f0f0f;
+    width: 100%;
+    color:#525252;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display:inline-block;
+}
+.footer-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+.footer-social{
+    font-size: 20px;
+}
+
+
+input[type='checkbox']{
+    display: none;
+}
+.popup{
+   display: none; 
+   width: 275px;
+   height: 260px;
+   background:#fff;
+   position: fixed;
+   text-align: center;
+   top: calc(50% - 160px);
+   left: calc(50% - 137px);
+   margin: 0 auto;
+}
+label{
+    display: inline-block;
+    background:#6c757d;
+    padding: 10px 20px;
+    border-radius:15px;
+    color:#fff;
+}
+input:checked ~ .popup{
+    display:block;
+}
+.popup span{
+    background:#dbdbdb;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+.popup input{
+    display: block;
+    width: 89%;
+    height: 41px;
+    line-height: 20px;
+    margin: 16px 14px;
+}
+.popup .text{
+   padding-left: 10px;
+   padding-right: 10px; 
+}
+.close1 {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -16px;
+    text-align: center;
+    top: -16px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+   }
+    
+   .close:hover { background: #ff9933; }   
+   #send_info{color:#ffffff;font-size: 16px;}
